@@ -14,7 +14,7 @@
   </div>
 </div>
 </div>  
-<h1>Imperial Bank</h1>
+<h1>Your Bank</h1>
 <div class="container">
         <div class="button" >
           <a class="text" href="transfer.php">Credit Transfer</a>
