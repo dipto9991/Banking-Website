@@ -1,12 +1,12 @@
 <?php
-$conn = mysqli_connect("localhost", "root", "", "user");
+$conn = mysqli_connect("localhost", "root", "", "users");
 if($conn-> connect_error){
 	die("connection failed:". $conn-> connect_error);
 }
 $sql = "SELECT name, email, credit FROM user";
 error_reporting(0);
-$result = mysqli_query($conn,"SELECT *  FROM user");
-$resul1 = mysqli_query($conn,"SELECT *  FROM user");
+$result = mysqli_query($conn,"SELECT *  FROM users");
+$resul1 = mysqli_query($conn,"SELECT *  FROM users");
 ?>
 <!DOCTYPE html>
 <html>
